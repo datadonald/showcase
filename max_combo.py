@@ -1,4 +1,4 @@
-def max_combination_n2(sequence):
+def max_combo_n2(sequence):
     """
     Finds the maximum sum of any two numbers in a sequence using an O(n^2) approach.
 
@@ -40,7 +40,7 @@ test_cases = [
 ]
 
 for sequence in test_cases:
-    max_sum, n1, n2 = max_combination_n2(sequence)
+    max_sum, n1, n2 = max_combo_n2(sequence)
     if max_sum is not None:
         print(f"Sequence: {sequence}")
         print(f"Max sum: {max_sum} (from {n1} and {n2})\n")

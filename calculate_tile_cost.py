@@ -1,4 +1,4 @@
-def calculate_tile_cost():
+def calc_tile_cost():
     """Calculates the total cost of tiling a floor."""
 
     try:
@@ -20,5 +20,5 @@ def calculate_tile_cost():
     print(f"The total cost of tiling the floor is: ${total_cost:.2f}")
 
 if __name__ == "__main__":
-    calculate_tile_cost()
+    calc_tile_cost()
     
